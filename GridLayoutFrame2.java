@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import javax.swing. JFrame;
 import javax.swing. JButton;
 
-public class GridLayoutFrame extends JFrame implements ActionListener{
+public class GridLayoutFrame2 extends JFrame implements ActionListener{
     private JButton[] buttons;
     private static final String[] names = { "macaron", "bombom", "chocolate", "gelatina", "acai", "cupuacu" };
     private boolean toggle = true;
