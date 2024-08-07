@@ -15,7 +15,7 @@ public class GridLayoutFrame extends JFrame implements ActionListener{
 
     public GridLayoutFrame(){
         super( "GridLayout Demo" );
-        gridLayout1 = new GridLayout( 2, 3, 7, 7);
+        gridLayout1 = new GridLayout( 2, 3, 8, 7);
         gridLayout2 = new GridLayout( 3, 2 ); 
         container = getContentPane(); 
         setLayout( gridLayout1); 
